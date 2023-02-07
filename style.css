@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body{
+    background-color: black;
+}
+
+.color_text{
+    color: rgb(0, 213, 255);
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+header li{
+    padding: 1.5%;
+    border-radius: 20px;
+    background-color: rgb(63, 63, 63);
+}
+
+header{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 200px;
+    height: 100px;
+}
+
+.banner{
+    margin-top: 2%;
+    height: 80vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.banner_tags{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+}
+
+.banner_tags p{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 1.5%;
+}
+
+.banner_interactions{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.banner_interactions button{
+    background-color: rgb(0, 213, 255);
+    height: 60px;
+    width: 120px;
+    color: black;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner_interactions button b{
+    color: black;
+    font-size: 1em;
+}
+
+.arrow{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(0, 213, 255);
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+.banner h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 6em;
+    line-height: 0.8em;
+}
+
+.banner_SideLeft{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+    background: linear-gradient(to bottom right, rgb(63,63,63), rgb(43, 43, 43));
+    border-radius: 50px;
+    height: 80vh;
+    margin-right: 1%;
+}
+
+.banner_SideRight{
+    width: 60%;
+    height: 80vh;
+    background-image: url(./img/charming-businesswoman-glasses-striped-shirt-working-with-laptop-computer-while-siting-home.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+.banner_SideRight #banner_SideRight_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.banner_SideRight #banner_SideRight_text p{
+    color: black;
+}
+
+.plus{
+    margin-top: 2%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 213, 255);
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus img{
+    width: 20px;
+    height: 20px;
+}
+
+.banner_SideLeft #description{
+    width: 80%;
+}
