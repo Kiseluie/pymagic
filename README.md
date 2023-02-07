@@ -1,1 +1,3 @@
-# pymagic https://github.com/Kiseluie/pymagic
+# pymagic
+
+https://kiseluie.github.io/pymagic
